@@ -1,0 +1,9 @@
+aws_region   = "us-east-1"
+project_name = "quickbasket"
+create_iam_roles = false
+existing_ecs_execution_role_name = "LabRole"
+existing_ecs_task_role_name      = "LabRole"
+
+# Replace these before running terraform apply.
+mongodb_uri = "mongodb+srv://username:password@cluster.mongodb.net/quickbasket"
+jwt_secret  = "replace-with-a-strong-random-secret"

@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+.DS_Store
+.env
+server/.env
+client/.env
+coverage
+*.log
+terraform/.terraform
+terraform/terraform.tfvars
